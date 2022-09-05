@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 #include <SoftwareSerial.h>
 SoftwareSerial btSerial(3,4); //Rx/Tx
-String msg;
+String msg
 
 LiquidCrystal_I2C lcd(0x27,  16, 2);
 
